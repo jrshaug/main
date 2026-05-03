@@ -123,24 +123,32 @@ main (always stable, always deployable)
 
 When onboarding a new law firm, follow these steps:
 
-### Step 1: Create from template
-1. Go to this repository on GitHub
+### Step 1: Create from template on GitHub
+1. Go to `template-law-firm-org` on GitHub
 2. Click **"Use this template"**
 3. Click **"Create a new repository"**
 4. Name it `org-firm-name` (example: `org-johnson-associates`)
 5. Set visibility to **Private**
 6. Click **"Create repository"**
 
-### Step 2: Clone locally
-```bash
-git clone https://github.com/YOUR-ORG/org-firm-name.git
-cd org-firm-name
-```
+### Step 2: Clone the repository in VSCode
+1. Open **Visual Studio Code**
+2. Open the Command Palette: **Ctrl + Shift + P** (Windows) or **Cmd + Shift + P** (Mac)
+3. Type **"Git: Clone"** and select it
+4. Select **"Clone from GitHub"**
+5. Find and select your newly created `org-firm-name` repository from the list
+6. Choose your destination folder (your main projects folder)
+7. Click **"Open"** when prompted to open the cloned repository
 
-### Step 3: Open in VSCode
-```bash
-code .
-```
+> **Note:** GitHub is already connected to VSCode — your organization's repositories will appear automatically in the list. No URL copying required.
+
+### Step 3: Verify the project structure
+Once opened in VSCode, confirm the following files and folders are visible in the Explorer panel:
+- `force-app/`
+- `sfdx-project.json`
+- `README.md`
+
+If these are missing, do not proceed — reach out to the template owner.
 
 ### Step 4: Authorize the org
 ```bash
