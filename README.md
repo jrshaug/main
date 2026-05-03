@@ -273,3 +273,7 @@ For questions about this template, the development workflow, or onboarding a new
 ---
 
 *This template is maintained by the Salesforce Development Team.*
+
+## Testing
+
+Demonstrating branching and pull requests.
